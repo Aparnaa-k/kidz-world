@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100%;
+}
+
+.books {
+  max-width: 150px;
+}
+
+.games, .toys {
+  max-width: 250px;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-container {
+  flex-direction: column;
+  padding: 2px;
+}
+
+.space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-evenly {
+    display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+}
+
+nav.div {
+  padding: 0% 5%;
+}
+
+nav img {
+  height: 30px;
+}
+
+#cart {
+  font-weight: bold;
+  align-items: center;
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  background-image: url("./assets/kw-background.png");
+  background-size: 100% 100%;
+  color: white;
+}
+
+.header-text {
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 20%;
+  padding: 4% 5%;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+header h5 {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 7px;
+  background-color: #6095ff;
+  color: white;
+  border-radius: 4px;
+}
+
+.buy img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.buy {
+  margin-top: 15px;
+  padding-bottom: 40px;
+}
+
+footer {
+  /* max-height: 300px; */
+  background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+  color: white;
+  padding: 0% 5%;
+}
+
+footer img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#end {
+  flex-direction: column;
+  text-align: right;
+}
+
+h4 {
+  color:rgb(129, 123, 123);
+  
+}
+
+h6 {
+  font-size: 17px;
+}
+
+.buy p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h3,
+h2 {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 300px) {
+  header {
+    height: 200px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  header h1 {
+    font-size: 3vh;
+  }
+
+  header h5 {
+    font-size: 15px;
+  }
+
+  .header-text {
+    padding: 0% 60% 5% 5%;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .container {
+    justify-content: center;
+  }
+}
